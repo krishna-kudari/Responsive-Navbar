@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMW</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <i class="fa-brands fa-facebook"></i><img src="logo.png" alt="" class="logo">
+            <ul>
+                <li>
+                    <img src="notification.png" alt="">
+                    <img src="inbox.png" alt="">
+                    <img src="video.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="search.png" alt="">
+                <input type="text" name="search-box" id="" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="profile-pic.png" alt="">
+            </div>
+        </div>
+        <!-- setttings menu   ............................................................. -->
+        <div class="settings-menu">
+
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="profile-pic.png" alt="" srcset="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="feedback.png" alt="" srcset="">
+                    <div>
+                        <p>Give feedback</p>
+                        <a href="#">Help us to improve</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="setting.png" alt="" class="settings-icon">
+                    <a href="#">Settings & privacy <img src="arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="help.png" alt="" class="settings-icon">
+                    <a href="#">Help & Support <img src="arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="display.png" alt="" class="settings-icon">
+                    <a href="#">Dispaly & Accessibility<img src="arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="logout.png" alt="" class="settings-icon">
+                    <a href="#">Logout<img src="arrow.png" alt="" width="10px"></a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- left-sidebar........ ..........................................................................-->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="news.png" alt="">Latest News</a>
+                <a href="#"><img src="friends.png" alt="">Friends</a>
+                <a href="#"><img src="group.png" alt="">Group</a>
+                <a href="#"><img src="marketplace.png" alt="">Marketplace</a>
+                <a href="#"><img src="watch.png" alt="">Watch</a>
+                <a href="#">See more</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href=""><img src="shortcut-1.png" alt="" srcset="">Web Developers</a>
+                <a href=""><img src="shortcut-2.png" alt="" srcset="">Web Design Course</a>
+                <a href=""><img src="shortcut-3.png" alt="" srcset="">Full Satck Development</a>
+                <a href=""><img src="shortcut-4.png" alt="" srcset="">Website-experts</a>
+            </div>
+        </div>
+
+        <!-- Main Conten ....................................................................................-->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="upload.png" alt="" srcset="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="member-1.png" alt="" srcset="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story3">
+                    <img src="member-2.png" alt="" srcset="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story4">
+                    <img src="member-3.png" alt="" srcset="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story5">
+                    <img src="member-4.png" alt="" srcset="">
+                    <p>Post Story</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="profile-pic.png" alt="" srcset="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>Public<i class="fa-solid fa-angle-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea placeholder="What's on your mind john" rows="3"></textarea>
+                    <div class="add-post-links">
+                        <a href="#">
+                            <img src="live-video.png" alt="" srcset=""> Live Video
+                        </a>
+                        <a href="#">
+                            <img src="photo.png" alt="" srcset=""> photo/Video
+                        </a>
+                        <a href="#">
+                            <img src="feeling.png" alt="" srcset=""> Feeling Activity
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png" alt="" srcset="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe to my <span> Lorem</span> ipsum dolor sit amet consectetur adipisicing
+                    elit. Iure, libero. <a href="#">#myVlogs</a> <a href="#">#YouTube Channel</a> </p>
+                <img src="feed-image-1.png" alt="" srcset="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="like-blue.png" alt="" srcset="">120
+                        </div>
+                        <div>
+                            <img src="comments.png" alt="" srcset="">45
+                        </div>
+                        <div>
+                            <img src="share.png" alt="" srcset="">20
+                        </div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png" alt=""><i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png" alt="" srcset="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe to my <span> Lorem</span> ipsum dolor sit amet consectetur adipisicing
+                    elit. Iure, libero. <a href="#">#myVlogs</a> <a href="#">#YouTube Channel</a> </p>
+                <img src="feed-image-2.png" alt="" srcset="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="like-blue.png" alt="" srcset="">120
+                        </div>
+                        <div>
+                            <img src="comments.png" alt="" srcset="">45
+                        </div>
+                        <div>
+                            <img src="share.png" alt="" srcset="">20
+                        </div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png" alt=""><i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png" alt="" srcset="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe to my <span> Lorem</span> ipsum dolor sit amet consectetur adipisicing
+                    elit. Iure, libero. <a href="#">#myVlogs</a> <a href="#">#YouTube Channel</a> </p>
+                <img src="feed-image-3.png" alt="" srcset="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="like-blue.png" alt="" srcset="">120
+                        </div>
+                        <div>
+                            <img src="comments.png" alt="" srcset="">45
+                        </div>
+                        <div>
+                            <img src="share.png" alt="" srcset="">20
+                        </div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png" alt=""><i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png" alt="" srcset="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe to my <span> Lorem</span> ipsum dolor sit amet consectetur adipisicing
+                    elit. Iure, libero. <a href="#">#myVlogs</a> <a href="#">#YouTube Channel</a> </p>
+                <img src="feed-image-4.png" alt="" srcset="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="like-blue.png" alt="" srcset="">120
+                        </div>
+                        <div>
+                            <img src="comments.png" alt="" srcset="">45
+                        </div>
+                        <div>
+                            <img src="share.png" alt="" srcset="">20
+                        </div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png" alt=""><i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png" alt="" srcset="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe to my <span> Lorem</span> ipsum dolor sit amet consectetur adipisicing
+                    elit. Iure, libero. <a href="#">#myVlogs</a> <a href="#">#YouTube Channel</a> </p>
+                <img src="feed-image-5.png" alt="" srcset="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="like-blue.png" alt="" srcset="">120
+                        </div>
+                        <div>
+                            <img src="comments.png" alt="" srcset="">45
+                        </div>
+                        <div>
+                            <img src="share.png" alt="" srcset="">20
+                        </div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png" alt=""><i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more-button">Load More</button>
+
+
+
+        </div>
+
+
+        <!-- right-sidebar................................................................................... -->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+
+                    <p><img src="https://img.icons8.com/plumpy/15/000000/marker.png" />Willson Tech Park</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><img src="https://img.icons8.com/plumpy/15/000000/marker.png" />Manyata Tech Park</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisements</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="advertisement.png" alt="" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversations</h4>
+                <a href="#">Hide chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="member-1.png" alt="" srcset="">
+
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="member-2.png" alt="" srcset="">
+
+                </div>
+                <p>Jacob Torreto</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="member-3.png" alt="" srcset="">
+
+                </div>
+                <p>Paul Walker</p>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div class="footer">
+        <p>Copyright 2021 -My Youtube Channel</p>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/faac12ae32.js" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
